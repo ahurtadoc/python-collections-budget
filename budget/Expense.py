@@ -35,7 +35,7 @@ class Expenses():
                     i.category == 'Classes' or i.category == 'Utilities' or
                     i.category == 'Mortgage'):
                 necessary_expenses.add(i)
-            elif (i.category == 'Groceries' or i.category == 'Eating Out'):
+            elif i.category == 'Groceries' or i.category == 'Eating Out':
                 food_expenses.add(i)
             else:
                 unnecessary_expenses.add(i)
